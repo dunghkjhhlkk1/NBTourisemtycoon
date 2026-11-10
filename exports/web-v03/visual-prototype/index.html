@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tràng An · Visual Prototype v0.4</title>
+<style>
+html,body{margin:0;background:#143427;color:#ffe5af;font:16px system-ui;overflow:hidden}
+canvas{display:block;width:100vw;height:100vh}
+#status{position:absolute;top:1rem;left:1rem;padding:.6rem;background:#143427}
+</style>
+<canvas id="canvas" tabindex="0"></canvas>
+<div id="status">Đang tải scene Tràng An…</div>
+<script src="index.js"></script>
+<script>
+const status = document.querySelector('#status');
+const engine = new Engine({executable:'index', canvasResizePolicy:2, focusCanvas:true});
+engine.startGame().then(() => status.remove(), error => {
+  status.textContent = 'Không mở được scene: ' + error.message;
+});
+</script>
+</html>

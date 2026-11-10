@@ -1,0 +1,6 @@
+{
+  "ticket": {"price": 45, "capacity": 1, "duration": 3, "staff": 1, "queue": 8, "cost": 0, "quality": 7},
+  "dock": {"price": 95, "capacity": 3, "duration": 32, "staff": 1, "queue": 12, "cost": 8, "quality": 16},
+  "restaurant": {"price": 65, "capacity": 3, "duration": 13, "staff": 1, "queue": 6, "cost": 25, "quality": 10},
+  "homestay": {"price": 145, "capacity": 2, "duration": 25, "staff": 1, "queue": 4, "cost": 20, "quality": 13}
+}

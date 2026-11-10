@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ticket",
+    "name": "Quầy vé",
+    "sprite": "buildings/building_ticket_booth_lv1.png",
+    "size": [
+      2,
+      2
+    ],
+    "width": 150,
+    "capacity": 12,
+    "shore": false,
+    "start": [
+      16,
+      21
+    ]
+  },
+  {
+    "id": "restaurant",
+    "name": "Nhà hàng",
+    "sprite": "buildings/building_restaurant_lv1.png",
+    "size": [
+      4,
+      3
+    ],
+    "width": 265,
+    "capacity": 42,
+    "shore": false,
+    "start": [
+      23,
+      20
+    ]
+  },
+  {
+    "id": "homestay",
+    "name": "Homestay",
+    "sprite": "buildings/building_homestay_lv1.png",
+    "size": [
+      3,
+      3
+    ],
+    "width": 210,
+    "capacity": 18,
+    "shore": false,
+    "start": [
+      29,
+      20
+    ]
+  },
+  {
+    "id": "dock",
+    "name": "Bến thuyền",
+    "sprite": "buildings/building_boat_station_lv1.png",
+    "size": [
+      2,
+      2
+    ],
+    "width": 148,
+    "capacity": 24,
+    "shore": true,
+    "start": [
+      31,
+      31
+    ]
+  },
+  {
+    "id": "souvenir",
+    "name": "Quầy lưu niệm",
+    "sprite": "buildings/building_souvenir_shop.png",
+    "size": [
+      2,
+      2
+    ],
+    "width": 154,
+    "capacity": 10,
+    "shore": false,
+    "start": [
+      20,
+      20
+    ]
+  }
+]
